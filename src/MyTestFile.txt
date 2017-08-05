@@ -1,0 +1,7 @@
+The vast majority of software services and systems should aim for almost-perfect reliability rather than perfect reliability—that is,
+99.999 or 99.99 percent rather than 100 percent—because users cannot tell the difference between a service being 100 percent available
+and less than "perfectly" available.
+There are many other systems in the path between user and service (laptop, home WiFi, ISP, the power grid, ...), and those systems collectively
+are far less than 100 percent available.
+Thus, the marginal difference between 99.99 percent and 100 percent gets lost in the noise of other unavailability, and the user receives no benefit from the
+enormous effort required to add that last fractional percent of availability. Notable exceptions to this rule include antilock brake control systems and pacemakers!
