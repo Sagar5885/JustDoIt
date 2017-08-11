@@ -15,7 +15,7 @@ public class MaxDiff {
             ar[i] = sc.nextInt();
         }
 
-        System.out.println(maxDifference4(ar));
+        System.out.println(maxDifference2(ar));
     }
 
     static int maxDifference1(int[] a) {
