@@ -1,27 +1,15 @@
 package LogicalExampleHackerrank;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
  * Created by sdodia on 6/22/17.
  */
 public class BirthdayCakeCandles {
-    static int birthdayCakeCandles(int n, int[] ar) {
-        int max = 0;
-        for(int i: ar){
-            if(max<ar[i]){
-                max = ar[i];
-            }
-        }
-
-        int howmany = 0;
-        for(int i: ar){
-            if(ar[i]==max){
-                howmany++;
-            }
-        }
-
-        return howmany;
+    static int solve(int[] heights) {
+        int maxHeight = Arrays.stream(heights).max().getAsInt();
+        return (int) Arrays.stream(heights).filter(height -> height == maxHeight).count();
     }
 
     public static void main(String[] args) {
@@ -31,7 +19,7 @@ public class BirthdayCakeCandles {
         for(int ar_i = 0; ar_i < n; ar_i++){
             ar[ar_i] = in.nextInt();
         }
-        int result = birthdayCakeCandles(n, ar);
+        int result = solve(ar);
         System.out.println(result);
     }
 }

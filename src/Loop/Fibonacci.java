@@ -17,7 +17,7 @@ public class Fibonacci {
 
         System.out.print("Fibonacci Seriese upto "+limit+": ");
         for(int i=0; i<limit; i++){
-            System.out.print(i+ " ");
+            System.out.print(series[i]+ " ");
         }
     }
 }
