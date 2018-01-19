@@ -13,6 +13,6 @@ public class RecursionExample3 {
     }
 
     public static void main(String args[]){
-        System.out.println("Factorial of 5: "+factorial(5));
+        System.out.println("Factorial of 5: "+factorial(6));
     }
 }

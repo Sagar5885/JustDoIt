@@ -1,9 +1,6 @@
 package LogicalExampleHackerrank.Strings;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by sdodia on 8/22/17.
@@ -21,7 +18,7 @@ public class DeterminingDNAHealth {
             health[health_i] = in.nextInt();
         }
         int s = in.nextInt();
-        Set<Integer> set = new HashSet<Integer>();
+        Set<Integer> set = new TreeSet<>();
         for(int a0 = 0; a0 < s; a0++){
             int first = in.nextInt();
             int last = in.nextInt();
@@ -39,13 +36,13 @@ public class DeterminingDNAHealth {
             }
             set.add(res);
         }
-
-        System.out.print(Collections.min(set)+" "+Collections.max(set));
+        List<Integer> list = new ArrayList<>();
+        list.addAll(set);
+        System.out.print(list.get(0)+" "+list.get(list.size()-1));
     }
 
     public static int check1(String d, String g){
         int res = 0;
-        char[] ch = d.toCharArray();
         if(d.contains(g)){
             if(g.length()>1){
                 int tmp = d.length()-g.length();
@@ -56,6 +53,7 @@ public class DeterminingDNAHealth {
                     }
                 }
             }else {
+                char[] ch = d.toCharArray();
                 for(char c:ch){
                     if((c+"").equals(g)){
                         res++;

@@ -40,6 +40,20 @@ public class SinglyLinkedListImpl<T> {
         }
     }
 
+    public static void Print(Node head)
+    {
+        if(head == null){
+            System.out.println();
+        }else{
+            System.out.println(head.getValue());
+            while(head.getNextRef() != null){
+                head = head.getNextRef();
+                System.console();
+            }
+        }
+    }
+
+
     public void reverse(){
 
         System.out.println("\nreversing the linked list\n");
