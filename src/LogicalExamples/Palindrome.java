@@ -1,9 +1,5 @@
 package LogicalExamples;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * Created by sdodia on 6/6/17.
  */
@@ -16,7 +12,7 @@ public class Palindrome {
         }
 
         boolean b = false;
-        if(res.equals(a)){
+        if(res.toLowerCase().equals(a.toLowerCase())){
             b = true;
         }
         return b;
@@ -46,11 +42,11 @@ public class Palindrome {
         Palindrome p1 = new Palindrome();
         int k = 1;
 
-        String m = "madame";
-        System.out.println("String m status of Palindrome: "+p1.testIt(m, k));
+        String m = "madam";
+        System.out.println("String m status of Palindrome: "+p1.revstrcheck(m));
 
-        String n = "abrarbra";
+        String n = "Sagas";
         System.out.println("Value of K: "+k);
-        System.out.println("String n status of K-Palindrome: "+p1.testIt(n,k));
+        System.out.println("String n status of K-Palindrome: "+p1.revstrcheck(n));
     }
 }

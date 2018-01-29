@@ -1,4 +1,4 @@
-package Algorithms.QuickSort;
+package Algorithms.SortAlogs;
 
 import java.util.Arrays;
 
