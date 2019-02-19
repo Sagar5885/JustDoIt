@@ -40,6 +40,9 @@ public class GraphExample {
 
         System.out.println(g.isConnected(9,3));
         System.out.println(g.isConnected(2,3));
+        System.out.println(g.isConnected(2,5));
+        System.out.println(g.isConnected(0,5));
+        System.out.println(g.isConnected(0,2));
     }
 }
 

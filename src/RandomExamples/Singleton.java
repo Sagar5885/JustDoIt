@@ -9,3 +9,6 @@ public class Singleton {
     private Singleton(){}
     public static Singleton getSingleInstance(){return singleton;}
 }
+
+//Enum is the only true way to create a Singleton. Private constructors can be still call through reflection.
+//

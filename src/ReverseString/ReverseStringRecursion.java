@@ -10,7 +10,7 @@ public class ReverseStringRecursion {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
 
-        String res = reverse(str);
+        String res = reverseRec(str);
         System.out.println("Reverse String of "+str+" is: "+res);
     }
 
@@ -18,7 +18,19 @@ public class ReverseStringRecursion {
         if((str == null)||(str.length() <= 1)){
             return str;
         }else {
-            return reverse(str.substring(1))+str.charAt(0);
+            String tmp = str.substring(1);
+            return reverse(tmp)+str.charAt(0);
         }
+    }
+
+    public static String reverseRec(String s) {
+
+        if(s == null) return null;
+        if(s.length() < 2) return s;
+        int n = s.length()/2;
+        String tmp1 = s.substring(n);
+        String tmp2 = s.substring(0,n);
+        return reverseRec(tmp1)+ reverseRec(tmp2);
+
     }
 }

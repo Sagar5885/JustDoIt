@@ -34,4 +34,12 @@ public class HashTableDemo {
         balance.put("Zara", new Double(bal + 1000));
         System.out.println("Zara's new balance: " + balance.get("Zara"));
     }
+
+    /*
+    Though both Hashtable and HashMap are data-structure based upon hashing and implementation of Map interface,
+    the main difference between them is that HashMap is not thread-safe but Hashtable is thread-safe.
+    Which means you cannot use HashMap in multi-threaded Java application without external synchronization.
+    Another difference is HashMap allows one null key and null values but Hashtable doesn't allow null key or values.
+    Also, thread-safety of the hash table is achieved using internal synchronization, which makes it slower than HashMap.
+     */
 }

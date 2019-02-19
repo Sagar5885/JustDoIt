@@ -1,5 +1,8 @@
 package Serialization;
 
+import jdk.nashorn.internal.objects.annotations.Constructor;
+import jdk.nashorn.internal.objects.annotations.Getter;
+
 /**
  * Created by sdodia on 3/26/17.
  */
