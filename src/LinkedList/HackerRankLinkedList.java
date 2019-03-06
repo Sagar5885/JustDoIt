@@ -45,6 +45,27 @@ public class HackerRankLinkedList {
         return head;
     }
 
+    Node DeletecheckNthNull(Node head, int n) {
+        // Complete this method
+        Node node = head;
+        while (!checkNthNull(node, n)){
+            node = node.next;
+        }
+        node.next = node.next.next;
+        return head;
+
+    }
+
+    //Check nth null
+    Boolean checkNthNull(Node node, int n){
+        int i=0;
+        while(i<n-1){
+            node = node.next;
+            i++;
+        }
+        return false;
+    }
+
     //Insert a node at the head of a linked list
     Node InsertAtHead(Node head,int x) {
         Node node = new Node();
@@ -52,6 +73,8 @@ public class HackerRankLinkedList {
         node.next = head;
         return node;
     }
+
+
 
     //Insert a node at a specific position in a linked list
     Node InsertNth(Node head, int data, int position) {
