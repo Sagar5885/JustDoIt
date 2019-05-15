@@ -20,6 +20,26 @@ public class LeftRotation {
             }
             return res;
     }
+    
+    public static int[] rotLeft(int[] a, int d) {
+        for(int i=0; i<d; i++){
+            leftRotateArratOnce(a);
+        }
+        return a;
+    }
+
+    public static void leftRotateArratOnce(int[] arr){
+        int tmp = arr[0];
+        int i;
+        for(i=1; i<arr.length; i++){
+            arr[i-1] = arr[i];
+        }
+        arr[i-1] = tmp;
+    }
+
+    public static void printArray(int[] arr){
+        System.out.println(arr[0]+","+arr[1]+","+arr[2]+","+arr[3]+","+arr[4]);
+    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
