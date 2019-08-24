@@ -1,6 +1,6 @@
 package LeetCode;
 
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,11 +9,11 @@ import java.util.Map;
 
 public class LetterCombinationsPhoneNo {
 
-    @Test
-    public void main(){
-        String ip = "23";
-        System.out.println(letterCombinations(ip));
-    }
+//    @Test
+//    public void main(){
+//        String ip = "23";
+//        System.out.println(letterCombinations(ip));
+//    }
 
     Map<String, String> phone = new HashMap<String, String>() {{
         put("2", "abc");
