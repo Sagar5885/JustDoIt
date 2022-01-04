@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991a5aef-2bb0-4bb8-a738-241e63912025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/NoOfIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/FirstNonRepeatCharFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructure/Graph/GraphBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructure/Graph/GraphDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LongestPalindromicSubstring2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Temporary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ZigZagConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JustDoIt/Algorithms/SortAlogs/ArrayAllFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JustDoIt/Algorithms/SortAlogs/ArrayAllFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JustDoIt/Collections/QueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JustDoIt/Collections/QueueDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JustDoIt/LeetCode/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JustDoIt/LeetCode/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JustDoIt/LeetCode/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JustDoIt/LeetCode/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JustDoIt/LeetCode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JustDoIt/LeetCode/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/SortAlogs/ArrayAllFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/SortAlogs/ArrayAllFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/TwoSum.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +37,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PrMPQzcCjjVSr8BRkmbVVj343Y" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DataStructure.Graph" />
+      <recent name="LeetCode" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -34,13 +58,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NoOfIsland">
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicalExampleHackerrank.DataStructure.BinarySearchTree" />
+  <component name="RunManager" selected="Application.GraphBFS">
+    <configuration name="GraphBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructure.Graph.GraphBFS" />
       <module name="JustDoIt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LogicalExampleHackerrank.DataStructure.*" />
+          <option name="PATTERN" value="DataStructure.Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.IntegerToRoman" />
+    <configuration name="GraphDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructure.Graph.GraphDFS" />
       <module name="JustDoIt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="DataStructure.Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoOfIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.NoOfIsland" />
+    <configuration name="RecursionExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.RecursionExample.RecursionExample3" />
       <module name="JustDoIt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.*" />
+          <option name="PATTERN" value="Algorithms.RecursionExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.TestClass" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.RecursionExample.test" />
       <module name="JustDoIt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithms.*" />
+          <option name="PATTERN" value="Algorithms.RecursionExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NoOfIsland" />
+        <item itemvalue="Application.GraphBFS" />
+        <item itemvalue="Application.GraphDFS" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.RecursionExample4" />
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.IntegerToRoman" />
-        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.RecursionExample3" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +152,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -161,6 +187,61 @@
           <url>file://$PROJECT_DIR$/src/Algorithms/NoOfIsland.java</url>
           <line>32</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/LongestSubstringWithoutRepeatingCharacters.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ZigZagConversion.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ZigZagConversion.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ZigZagConversion.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ZigZagConversion.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ZigZagConversion.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ZigZagConversion.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

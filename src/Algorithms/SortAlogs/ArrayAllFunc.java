@@ -53,12 +53,12 @@ public class ArrayAllFunc {
 
         System.out.println();
         System.out.println("Generate new Array: ");
-        int[] arr2 = generateRandomNoArray();
-        printArray(arr2);
-        selectionSort(arr2);
+        int[] arr3 = generateRandomNoArray();
+        printArray(arr3);
+        insertionSort(arr3);
         System.out.println();
         System.out.println("After Insertion Sorting: ");
-        printArray(arr2);
+        printArray(arr3);
     }
 
     public static int[] generateRandomNoArray(){

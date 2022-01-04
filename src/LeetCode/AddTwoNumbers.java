@@ -50,14 +50,14 @@ public class AddTwoNumbers {
     public static void main(String args[]){
         LinkedList linkedList = new LinkedList();
 
-        linkedList.head1 = new ListNode(9);//5
-//        linkedList.head1.next = new ListNode(4);
-//        linkedList.head1.next.next = new ListNode(3);
+        linkedList.head1 = new ListNode(2);//9
+        linkedList.head1.next = new ListNode(4);
+        linkedList.head1.next.next = new ListNode(3);
         printAll(linkedList.head1);
 
-        linkedList.head2 = new ListNode(9);//5
-//        linkedList.head2.next = new ListNode(6);
-//        linkedList.head2.next.next = new ListNode(4);
+        linkedList.head2 = new ListNode(5);//5
+        linkedList.head2.next = new ListNode(6);
+        linkedList.head2.next.next = new ListNode(4);
         printAll(linkedList.head2);
 
         ListNode rs = addTwoNumbers(linkedList.head1, linkedList.head2);

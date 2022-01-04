@@ -31,5 +31,6 @@ public class QueueDemo {
 
         //Peak use instead of element in case queue is empty it will return null
         System.out.println(queue.peek());
+        System.out.println(queue);
     }
 }

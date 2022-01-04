@@ -21,6 +21,6 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
     public static void main(String args[]){
-        System.out.println(sol("pwwkew"));//aabaab!bb, pwwkew, bbbb, abcabcbb
+        System.out.println(sol("bacabcbb"));//aabaab!bb, pwwkew, bbbb, abcabcbb
     }
 }
