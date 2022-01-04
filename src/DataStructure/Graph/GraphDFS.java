@@ -27,6 +27,18 @@ public class GraphDFS {
         }
     }
 
+    public static boolean hasPath(HashMap<Character, ArrayList<Character>> graph, Character src, Character dest){
+        if(src == dest){
+            return true;
+        }
+        for (char neighbor : graph.get(src)){
+            if (hasPath(graph, neighbor, dest) == true){
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static void main(String args[]){
         graph.put('a', new ArrayList<>(Arrays.asList('b', 'c')));
         graph.put('b', new ArrayList<>(Arrays.asList('d')));
@@ -36,6 +48,8 @@ public class GraphDFS {
         graph.put('f', new ArrayList<>());
 
         depthFirstPrints(graph, 'a');
+        System.out.println();
+        System.out.println(hasPath(graph, 'c', 'f'));
 
     }
 
